@@ -151,4 +151,4 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
     Öğrenci isimlerinin sayısını "adet" olarak öğrencilerin isimleri "isim" olarak listeleyin.
     [İPUCU: count() ve group by]
         
-		CEVAP: SELECT ograd, COUNT(*) AS adet FROM ogrenci GROUP BY ograd;
+		CEVAP: SELECT COUNT(*) as adet, ograd as isim FROM ogrenci GROUP BY ograd;
